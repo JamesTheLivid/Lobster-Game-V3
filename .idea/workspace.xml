@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2c373ff-14bc-4759-a9da-964208de19ad" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weather/Streak/0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weather/Streak/0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weather/Streak/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weather/Streak/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weather/Streak/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weather/Streak/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weather/Streak/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weather/Streak/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weather/bad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weather/bad.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weather/good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weather/good.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weather/hur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weather/hur.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Weather/main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weather/main.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +16,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+            <state relative-caret-position="319">
+              <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
               <folding>
                 <element signature="e#85#105#0" expanded="true" />
               </folding>
@@ -144,7 +135,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -187,7 +178,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="calc&#9;null&#9;null&#10;cal&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="set&#9;null&#9;null&#10;money&#9;null&#9;null&#10;calc&#9;null&#9;null&#10;cal&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -219,7 +210,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -320,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+        <state relative-caret-position="319">
+          <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
           <folding>
             <element signature="e#85#105#0" expanded="true" />
           </folding>
