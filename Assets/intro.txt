@@ -1,0 +1,33 @@
+Welcome to the lobster game!
+
+The Rules:
+
+You have been forced by your tyrannical government to work as a lobster farmer on the Isle of Pain and Suffering.
+To start off you get given £20! There are certain things you must understand to become a lobster farmer!
+
+You can place you pots inshore or outshore, outshore pots having more lobsters in them.
+BUT if there is bad weather then your offshore lobster pots will be washed away and you will have to pay for new ones!
+Subsequently the price of inshore lobsters goes up!
+
+   +------------------------------+
+   |      Lobster Pot Values      |
+   +------------------------------+
+   | Weather | Inshore | Offshore |
+   +---------+---------+----------+
+   |    Good | £3      | £5       |
+   +---------+---------+----------+
+   +     Bad | £5      | -£6      +
+   +---------+---------+----------+
+
+Every day there is a 1 in 6 chance of bad weather!
+
+If you have 3 days in a row of bad weather then you get a hurricane! If this happens and you have any lobster pots out
+in the sea then you have to pay £150 for a new boat!
+
+To get around this then you can work at the hotel. They will only pay you £15, but your boat is protected as is did not
+need to go out!
+
+You will be working a 5 day week with the weekends off. The govenment taxes people who have days off so you have to pay
+£80 at the end of every week.
+
+If at the end of a week you are at -£100 of less then you will be shot. GAME OVER!
