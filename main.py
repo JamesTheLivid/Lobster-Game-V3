@@ -13,7 +13,7 @@ RIG_HURRICANE = [False, "GOOD"] # "GOOD", "BAD"
 START_MONEY = 20
 DAYS = {0 : "Monday", 1 : "Tuesday", 2 : "Wednesday", 3 : "Thursday", 4 : "Friday", 5 : "Saturday", 6 : "Sunday" }
 
-DEBUG = True
+DEBUG = False
 
 class player_class():
     def __init__(self):
@@ -130,11 +130,18 @@ class lobgame():
             return True
 
     def calculate_earnings(self):
+        global DEBUG
+
         if self.weather.state:
             money = (self.player.inshore * 3) + (self.player.outshore * 5)
 
         else:
             money = (self.player.inshore * 5) - (self.player.outshore * 6)
+
+        if DEBUG:
+            print("lobgame.calculate_earnings.money = {}".format(money))
+
+        print("\nYour profit is {}\n".format(money_format(money)))
 
         return money
 
@@ -143,7 +150,7 @@ class lobgame():
 
         # Changes day
         self.day += 1
-        print("You wake up to find that you have {} in your bank account safe from the government!".format(money_format(self.player.money)))
+        print("You wake up to find that you have {} in your bank account safe from the government!\n".format(money_format(self.player.money)))
 
         if self.weekday():
             # Message announcing day
@@ -155,7 +162,12 @@ class lobgame():
                 print("lobgame.dice = {}".format(self.dice))
 
             # Ask for hotel
-            if string_input("Do you want to stay at the hotel today? ")[0] == "n":
+            hotel = "abc"
+
+            while hotel.lower() != "n" or hotel.lower() != "y":
+                hotel = string_input("Do you want to stay at the hotel today? ").lower() == "n"
+
+            if hotel[0]:
 
                 # Gets in/out from player
                 self.player.in_or_out()
@@ -168,7 +180,7 @@ class lobgame():
                 self.weather.report()
 
                 # Calculate earnings
-                self.calculate_earnings()
+                self.player.money += self.calculate_earnings()
 
             # Yes to hotel
             else:
@@ -184,6 +196,7 @@ class lobgame():
             self.weather.set(self.dice)
             self.weather.report()
 
+        spacer()
 
 def money_format(money):
     if money <= 0:
